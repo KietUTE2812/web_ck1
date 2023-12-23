@@ -16,9 +16,9 @@ public class JDBCUtil {
 		try
 		{
 			DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-			String url = "jdbc:mysql://qlkh.ch8cgu8si0gp.us-east-1.rds.amazonaws.com:3306/QLKH?useUnicode=true&characterEncoding=utf-8&useSSL=false";
+			String url = "jdbc:mysql://mydbinstance2.cdx3bjtsoiw5.us-east-1.rds.amazonaws.com:3306/QLKH?useUnicode=true&characterEncoding=utf-8&useSSL=false";
 			String username ="admin";
-			String password ="Kiet#2003";
+			String password ="Thanhbinh_1411";
 			conn = DriverManager.getConnection(url, username, password);
 			System.out.println("Connection Successfully!");
 		}catch(SQLException e)
